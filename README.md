@@ -1,2 +1,1 @@
-# py
-python
+# Python 脚本库
