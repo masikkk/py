@@ -37,6 +37,6 @@ def generate_update_user_sql_in_transaction(lines):
 
 
 if __name__ == "__main__":
-    lineCount = 646578  # user表行数
-    generate_update_user_sql_not_in_transaction(lineCount)
-    generate_update_user_sql_in_transaction(lineCount)
+    maxId = 2340000  # 最大id
+    generate_update_user_sql_not_in_transaction(maxId)
+    generate_update_user_sql_in_transaction(maxId)
